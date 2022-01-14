@@ -1,0 +1,190 @@
+html,body,#app{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.el-form-item{
+	margin: 0 !important;
+}
+.el-step{
+	position: relative;
+	top: 20px;
+}
+.el-step.is-horizontal .el-step__line{
+    border-top: 2px dashed #CCD1DE;
+    height: 0;
+    background-color: transparent;
+	    width: 50%;
+	    margin-left: 30px;
+}
+.el-step__head.is-success >.el-step.is-horizontal .el-step__line{
+    border-top: 2px dashed inherit;
+    height: 0;
+    background-color: transparent;
+}
+.el-step__line-inner {
+    display: block;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-color: inherit;
+    transition: .15s ease-out;
+    box-sizing: border-box;
+    width: 0;
+    height: 0;
+}
+
+
+.el-step__head.is-success > .el-step__icon.is-text{
+	       background: rgb(148,137,52);
+		   border-color: white;
+	       color:white;
+		   /* border-radius: 0%; */
+		  
+		  
+	}
+ .el-step__icon.is-text{
+       background: rgb(31,46,89);
+	   border-color: white;
+       color:#fff;
+	   /* border-radius: 0%; */
+	  
+	  
+}
+.el-step__title.is-process {
+    font-weight: 700;
+    color: rgb(172,168,231);
+	font-size: 13px;
+}
+.el-step__title.is-wait {
+    color: #C0C4CC;
+	font-size: 13px;
+}
+  .el-tabs__item.is-active,.el-tabs__item.is-top,.el-tabs__item{
+    color: white;
+  }
+.el-input__inner{
+	background-color: rgb(25,39,74);
+	border-radius: 3px;
+	 border: none;
+	 box-shadow: 0px 0px 2px rgb(70,88,134);
+	 height: 32px;
+}
+.el-input--suffix .el-input__inner {
+    padding-right: 30px;
+	padding-left: 10px;
+}
+/* 单选框选中样式 */
+.el-radio__input.is-checked .el-radio__inner{
+	background-color: #00FF00;
+	border-color: #00FF00;
+}
+.el-radio__inner::after{
+	background-color: #00FF00;
+}
+/* 导航 */
+.el-menu-item {
+    font-size: 14px;
+    color: #303133;
+    padding: 0 55px;
+    cursor: pointer;
+    transition: border-color .3s,background-color .3s,color .3s;
+    box-sizing: border-box;
+}
+/* 选项卡样式 */
+.el-tabs__header{
+	top: -15px;
+	left: -12px;
+	border: none;
+}
+.el-tabs__nav-wrap::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+}
+.el-tabs__nav{
+	width: 50%;
+}
+.el-tabs__item {
+    padding: 0 20px;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #303133;
+    position: relative;
+	text-align: center;
+	width: 54%;
+}
+.el-tabs__active-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+	width: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+    transition: transform .3s cubic-bezier(.645,.045,.355,1);
+    list-style: none;
+}
+.el-tabs__item.is-active{
+	background: url(../img/hei.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+/* 导航样式 */
+.el-menu--horizontal>.el-menu-item{
+	font-weight: 800;
+}
+.el-menu--horizontal>.el-menu-item.is-active {
+    border-bottom: 2px solid #409EFF;
+    /* color: #303133; */
+	color: rgb(133,233,244) !important;
+	background: url(../img/an.png) no-repeat;
+	background-size: 100% 100%;
+}
+.el-menu--horizontal>.el-menu-item:not(.is-disabled):focus, .el-menu--horizontal>.el-menu-item:not(.is-disabled):hover, .el-menu--horizontal>.el-submenu .el-submenu__title:hover {
+    /* background-color: #00ff00; */
+	background: url(../img/an.png) no-repeat;
+	background-size: 100% 100%;
+	color: rgb(133,233,244) !important;
+}
+.el-menu.el-menu--horizontal {
+    border-bottom:none;
+	
+}
+/*.el-step__icon.is-text:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                right:0;
+				top: -23px;
+                border-width: 13.3px 9px;
+                border-style: solid;
+                border-color: transparent rgb(31,46,89) transparent transparent;
+				transform: rotate(90deg);
+            }
+            .el-step__icon.is-text:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                left:1px;
+                border-width: 13.3px 9px;
+                border-style: solid;
+                border-color: transparent transparent transparent rgb(31,46,89);
+                bottom:-23px;
+				transform: rotate(90deg);
+            }
+ */

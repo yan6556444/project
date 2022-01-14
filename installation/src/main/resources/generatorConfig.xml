@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <properties resource="application.yml" />
+  <classPathEntry location="C:\Users\Lenovo\.m2\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar" />
+  <context id="DB2Tables" targetRuntime="MyBatis3" defaultModelType="flat">
+    <plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">
+      <property name="searchString" value="[e|E]xample$" />
+      <property name="replaceString" value="Criteria" />
+    </plugin>
+
+    <commentGenerator>
+      <property name="suppressDate" value="true" />
+      <!-- 是否去除自动生成的注释true：是： false:否 -->
+      <property name="suppressAllComments" value="true"/>
+    </commentGenerator>
+    <!--数据库链接URL，用户名、密码-->
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                    connectionURL="jdbc:mysql://127.0.0.1:3306/installation" userId="root"
+                    password="root">
+    </jdbcConnection>
+
+    <javaTypeResolver>
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+
+    <!-- 生成模型的包名和位置 -->
+    <javaModelGenerator targetPackage="com.example.installation.po" targetProject="src/main/java">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+
+    <!-- 生成映射文件的包名和位置 -->
+    <sqlMapGenerator  targetPackage="main.resources.mapping"
+                      targetProject="src">
+    <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+
+    <!-- 生成DAO的包名和位置-->
+    <javaClientGenerator type="XMLMAPPER"
+                         targetPackage="com.example.installation.dao"
+                         targetProject="src/main/java">
+    <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+    <!--
+      t_admin,t_kemu,t_province,t_roles,t_school,t_shuming,t_xueyuan,t_zhuanye,t_zhuanye_kemu
+
+    -->
+    <!-- 要生成的表tableName是数据库中的表名或视图名 domainObjectName是实体类名-->
+    <!--<table tableName="t_roles" domainObjectName="Roles"></table>-->
+    <!--<table tableName="t_school" domainObjectName="School"></table>-->
+    <!--<table tableName="t_shuming" domainObjectName="Shuming"></table>-->
+    <!--<table tableName="t_xueyuan" domainObjectName="Xueyuan"></table>-->
+    <!--<table tableName="t_zhuanye" domainObjectName="Zhuanye"></table>-->
+    <!--<table tableName="t_zhuanye_kemu" domainObjectName="ZhuanyeKemu"></table>-->
+    <!--<table tableName="t_longhuinfo" domainObjectName="LongHuInfo"></table>-->
+    <!--<table tableName="t_zongyingli" domainObjectName="Zong"></table>-->
+    <!--<table tableName="t_riyingli" domainObjectName="Riying"></table>-->
+    <!--<table tableName="t_xuekes" domainObjectName="Xueke"></table>-->
+    <!--<table tableName="t_mens" domainObjectName="Mens"></table>-->
+    <!--<table tableName="t_zhuanye" domainObjectName="Zhuanyes2"></table>-->
+    <!--<table tableName="t_kemu" domainObjectName="Kemu"></table>-->
+    <!--<table tableName="t_province" domainObjectName="Province"></table>-->
+    <!--<table tableName="t_shizong" domainObjectName="ShiWei"></table>-->
+    <!--<table tableName="t_phone_info" domainObjectName="PhoneInfo"></table>-->
+    <!--<table tableName="lunbos" domainObjectName="Lunbo"></table>-->
+    <!--<table tableName="t_yanjiuyuan" domainObjectName="Yanjiuyuan"></table>-->
+    <!--<table tableName="t_buxi" domainObjectName="Buxi"></table>-->
+    <!--<table tableName="t_lei" domainObjectName="Leibie"></table>-->
+    <!--<table tableName="jiangpin" domainObjectName="JiangPin"></table>-->
+    <!--<table tableName="yanjiuyuan_zhuanye" domainObjectName="Yanjiuyuanzhuanye"></table>-->
+  </context>
+</generatorConfiguration>

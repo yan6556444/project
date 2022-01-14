@@ -1,0 +1,75 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/installation?characterEncoding=utf8
+    username: root
+    password: root
+
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    druid:
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        reset-enable: true
+        login-username: root
+        login-password: root
+
+      aop-patterns: com.example.installation.service.*
+
+      filter:
+        wall:
+          enabled: true
+          db-type: mysql
+          config:
+            alter-table-allow: false
+            truncate-allow: false
+            drop-table-allow: false
+
+            none-base-statement-allow: false
+            update-where-none-check: true
+            select-into-outfile-allow: false
+            metadata-allow: true
+          log-violation: true
+          throw-exception: true
+
+      filters: stat
+      max-active: 20
+      initial-size: 1
+      min-idle: 3
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      validationQuery: select 'x'
+      poolPreparedStatements: true
+      maxOpenPreparedStatements: 20
+  jmx:
+    enabled: false
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-wait: 3000ms
+        max-idle: 20
+        min-idle: 2
+mybatis:
+  mapper-locations: classpath:/mapping/*.xml
+
+  type-aliases-package: com.example.installation.po
+
+
+pagehelper:
+   helperDialect: mysql
+   reasonable: true
+   supportMethodsArguments: true
+   params: count=countSql
+server:
+  port: 80
