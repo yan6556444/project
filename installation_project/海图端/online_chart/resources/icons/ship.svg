@@ -1,0 +1,72 @@
+<svg width="639.9999999999999" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://www.86y.org/demo/svg/-->
+ <defs>
+  <pattern id="gridpattern" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+   <image id="svg_2" x="0" y="0" width="100" height="100"/>
+  </pattern>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0" id="svg_73"/>
+  </pattern>
+  <pattern id="gridpattern" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+   <image id="svg_1" x="0" y="0" width="100" height="100"/>
+  </pattern>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0" id="svg_12"/>
+  </pattern>
+  <pattern id="gridpattern" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+   <image id="svg_3" x="0" y="0" width="100" height="100"/>
+  </pattern>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0"/>
+  </pattern>
+  <symbol id="svg_104" height="480" width="640" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+   <!-- Created with SVG-edit - http://www.86y.org/demo/svg/-->
+   <defs>
+    <symbol id="svg_84" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+     <defs>
+      <linearGradient id="svg_98">
+       <stop offset="0" id="svg_103" stop-color="#ff0000"/>
+       <stop offset="1" id="svg_102" stop-color="#000e00"/>
+      </linearGradient>
+      <linearGradient id="svg_99">
+       <stop id="svg_101" offset="0" stop-color="#ffbfbf"/>
+       <stop id="svg_100" offset="1" stop-opacity="0" stop-color="#ffbfbf"/>
+      </linearGradient>
+      <linearGradient y2="27.33202" x2="76.86784" y1="27.31619" x1="112.91203" gradientTransform="matrix(-0.18338451,-0.18292317,-0.19637967,0.1971317,39.995411,21.455871)" gradientUnits="userSpaceOnUse" id="svg_90" xlink:href="#svg_99"/>
+      <linearGradient y2="46.1416" x2="-26.43451" y1="46.01533" x1="-3.57981" gradientTransform="matrix(0.56637043,0.5649456,-0.56457759,0.5667396,49.919077,-4.5063603)" gradientUnits="userSpaceOnUse" id="svg_92" xlink:href="#svg_98"/>
+     </defs>
+     <metadata id="svg_97">image/svg+xml</metadata>
+     <g id="svg_85">
+      <g transform="translate(-2.5001168e-4,-2.5001814e-4)" id="svg_95">
+       <g id="svg_96"/>
+      </g>
+      <g id="svg_86">
+       <g id="svg_93" transform="matrix(0.2944658,0,0,10,12.067221,-99)rotate(-45)">
+        <g id="svg_94"/>
+       </g>
+       <path d="m27.78788,2.43449c-3.85749,0.15453 -13.69227,2.43052 -25.25,19.65625c-0.42267,0.82065 0.40625,1.3125 0.40625,1.3125l2.78125,2.8125l2.9375,2.9375c0,0 0.49373,0.80054 1.3125,0.375c21.07258,-14.25442 19.69333,-25.86141 19.5,-27l-0.03125,-0.03125c-0.2012,-0.03424 -0.76606,-0.09816 -1.65625,-0.0625zm-10.6875,9.3125c0.67281,-0.06855 1.40315,0.09712 2,0.5625c1.15663,0.90186 1.43734,2.51298 0.65625,3.65625l-0.0625,0.09375c-0.85962,1.13998 -2.52504,1.33702 -3.71875,0.40625c-1.19371,-0.93077 -1.45336,-2.61002 -0.59375,-3.75c0.42981,-0.56999 1.04595,-0.9002 1.71875,-0.96875z" id="svg_91" fill-rule="evenodd" fill="url(#svg_92)"/>
+       <path d="m29.25117,2.54854c-1.21026,-0.27041 -13.0844,-1.9656 -26.70097,19.3922c-0.39411,0.83738 0.50389,1.39753 0.50389,1.39753l2.81063,2.70364l23.38645,-23.49336l0,-0.00001z" id="svg_89" fill-rule="evenodd" fill="url(#svg_90)"/>
+       <path d="m29.41168,2.46865c-1.07305,-0.18262 -12.68892,-1.60899 -26.91381,19.59191c-0.42267,0.82065 0.40187,1.30433 0.40187,1.30433l2.78645,2.82111l2.93789,2.91658c0,0 0.48596,0.82356 1.30474,0.39801c21.07257,-14.25442 19.70093,-25.86868 19.5076,-27.00727l-0.02474,-0.02468l0,0.00001z" id="svg_88" stroke-miterlimit="4" stroke-width="0.75464" stroke="#333333" fill="none"/>
+       <path id="svg_87" d="m47.19728,291.61138a96,96 0 1 1 -0.63917,-4.1874" transform="matrix(0.02023403,0.02018313,-0.01898319,0.01905589,24.278441,9.5632467)" stroke-miterlimit="4" stroke-linejoin="round" stroke-linecap="round" stroke-width="21.98171" stroke="#333333" fill="none"/>
+      </g>
+     </g>
+    </symbol>
+   </defs>
+   <g class="layer">
+    <title>Layer 1</title>
+    <use id="svg_83" xlink:href="#svg_84" transform="rotate(-45 78.85016632080077,102.08964538574219) matrix(5,0,0,5,0,0) " y="4.4" x="-0.2"/>
+    <g id="svg_82"/>
+   </g>
+  </symbol>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_31"/>
+  <g id="svg_51"/>
+  <g id="svg_113"/>
+  <g id="svg_48" stroke="null" transform="rotate(15.422161102294922 0,0) "/>
+  <g id="svg_81"/>
+  <use x="4744.89671" y="3513.29459" transform="matrix(1.0126055760735966,0,0,1.0711086233785139,-4564.552767349667,-3632.4689805633075) " xlink:href="#svg_104" id="svg_105"/>
+  <g id="svg_106"/>
+ </g>
+</svg>

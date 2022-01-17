@@ -1,0 +1,17 @@
+{
+    "background.useDefault": false,
+    "background.customImages": ["file:///C:/Users/hrb-pc/Documents/WebGis/kimono_anime_girl_4k-1920x1080.jpg"],
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "center",
+        "background-repeat": "no-repeat",
+        "opacity": 0.1,
+        "background-size":"100% 100%"
+    }
+    //"background.customImages": ["file:///D:example/../example.jpg"] 
+}
